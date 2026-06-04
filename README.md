@@ -1,6 +1,6 @@
 # pyprttl
 
-Python bindings for the Rust `prttl` Turtle formatter.
+Python bindings for the Rust [`prttl`](https://codeberg.org/elevont/prttl) Turtle formatter.
 
 ```python
 import pyprttl
