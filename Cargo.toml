@@ -1,7 +1,11 @@
 [package]
 name = "pyprttl"
-version = "0.1.0"
+version = "1.0.0"
 edition = "2024"
+description = "Python bindings for the prttl Turtle formatter"
+readme = "README.md"
+homepage = "https://github.com/rism-digital/pyprttl"
+repository = "https://github.com/rism-digital/pyprttl"
 license = "Apache-2.0"
 publish = false
 
@@ -11,4 +15,4 @@ crate-type = ["cdylib"]
 
 [dependencies]
 prttl = { git = "https://codeberg.org/elevont/prttl", rev = "bdd8561bb72c7911b2000c83f9cc794477f91a5a" }
-pyo3 = { version = "0.27", features = ["abi3-py39"] }
+pyo3 = { version = "0.27", features = ["abi3-py311"] }
