@@ -4,7 +4,7 @@ build-backend = "maturin"
 
 [project]
 name = "pyprttl"
-version = "1.0.0"
+version = "1.0.1"
 description = "Python bindings for the prttl Turtle formatter"
 readme = "README.md"
 requires-python = ">=3.11"
@@ -38,6 +38,8 @@ test = ["pytest>=8"]
 
 [tool.maturin]
 features = ["pyo3/extension-module"]
+python-source = "."
+module-name = "pyprttl.pyprttl"
 
 [dependency-groups]
 dev = [
